@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build test1",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g","pj1p1.1.c"    //"./Pj1_sc/lexerv0.cc", "./Pj1_sc/inputbuf.cc"  //, "< ./tests/test_0.txt "
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
